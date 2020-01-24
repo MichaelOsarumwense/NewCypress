@@ -4,7 +4,8 @@
   "description": "mastering git version control ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": " node_modules\\.bin\\cypress run",
+    "DashboardRun":"npm run test -- --record --key 23e86e6f-fba1-4553-8f3e-8e9ccf96ab4d"
   },
   "author": "Michael",
   "license": "ISC",
